@@ -1,0 +1,16 @@
+{
+  "name": "docx-text-extractor",
+  "version": "1.0.0",
+  "description": "Serverless function to extract text from DOCX files.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mammoth": "^1.7.0",
+    "busboy": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
