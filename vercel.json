@@ -1,6 +1,6 @@
 {
   "functions": {
-    "index.js": {
+    "api/extractDocxText.js": {
       "memory": 1024,
       "maxDuration": 10
     }
@@ -8,7 +8,7 @@
   "routes": [
     {
       "src": "/api/extract-docx-text",
-      "dest": "/index.js"
+      "dest": "/api/extractDocxText.js" 
     }
   ]
 }
