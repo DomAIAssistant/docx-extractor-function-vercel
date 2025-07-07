@@ -1,14 +1,14 @@
 {
   "functions": {
-    "index.js": { // A fájlod neve a gyökérkönyvtárban
-      "memory": 1024, // Opcionális: megnöveli a memória limitet (MB)
-      "maxDuration": 10 // Opcionális: megnöveli a futási időt (másodperc)
+    "index.js": {
+      "memory": 1024,
+      "maxDuration": 10
     }
   },
   "routes": [
     {
-      "src": "/api/extract-docx-text", // Az API endpoint, amit a frontend hívni fog
-      "dest": "/index.js" // Ide mutat a kérés
+      "src": "/api/extract-docx-text",
+      "dest": "/index.js"
     }
   ]
 }
